@@ -1,0 +1,38 @@
+{
+  "name": "vct",
+  "version": "0.0.1",
+  "description": "VSOA Command line Tool",
+  "bin": {
+    "vct": "index.js"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test/**/*.js | tap-spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clarkttfu/vct.git"
+  },
+  "keywords": [
+    "vsoa",
+    "cli"
+  ],
+  "author": "clarkttfu@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/clarkttfu/vct/issues"
+  },
+  "homepage": "https://github.com/clarkttfu/vct#readme",
+  "dependencies": {
+    "vsoa": "^1.0.6"
+  },
+  "devDependencies": {
+    "eslint": "^8.28.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.5.1",
+    "eslint-plugin-promise": "^6.1.1",
+    "tap-spec": "^5.0.0",
+    "tape": "^5.6.1"
+  }
+}
